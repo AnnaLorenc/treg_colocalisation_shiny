@@ -35,7 +35,7 @@ ui <- fluidPage(
   titlePanel("Colocalization between Treg QTLs and immune GWAS"),
 
   helpText("Visualise the p-values for QTL and GWAS studies across
-            all SNPs in a locus"),
+            all SNPs in a locus. Color of a SNP corresponds to R, purple square is the lead SNP for a locus."),
 
   navbarPage(
 
